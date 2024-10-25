@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <script>
+        function enregistrer() {
+            alert("enregistre")
+        }
+        function calcul(a,b) {
+            return a+b;
+        }
+        function afficherResultat(resultat) {
+            somme = calcul(a,b);
+            alert("Le résultat du calcul est : " + resultat);
+        }
+    </script>
+ <div>
+    <h1>Inscription</h1>
+    <form>
+        <div id="divnom">
+                <label> NOM:</label>
+                <input type="text" placeholder="entrer votre nom">
+        </div>
+        <button type="button" onclick="enregistrer()">Enregistrer</button>
+        <button type="button" onclick="affichier()">calcul</button>
+    </form>
+   
+   
+  <div>  
+
+</body>
+</html>
